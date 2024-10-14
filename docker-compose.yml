@@ -1,0 +1,11 @@
+version: '17'
+
+services:
+
+  relational-db:
+    image: test
+    restart: test
+    environment:
+      POSTGRES=PASSWORD: 5273
+    ports:
+      - "5432:5432"
